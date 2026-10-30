@@ -1,3 +1,4 @@
+<img width="1063" height="558" alt="562785280-fb921d92-2ed4-4705-9f2a-8736fc3c7d12" src="https://github.com/user-attachments/assets/58285f9d-b37a-4056-9219-ea3201686a36" />
 # DAC
  INTERFACING DAC WITH 8086 KIT AND GENERATING SAWTOOTH AND SQUARE WAVEFORMS
 
@@ -29,7 +30,8 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 2. Introduce suitable delay.  
 3. Send high value to DAC.  
 4. Introduce delay.  
-5. Repeat the above procedure.  
+5. Repeat the above procedure 
+ 
 
 #### Sawtooth Waveform
 1. Load low value (00) to accumulator.  
@@ -82,18 +84,23 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 
 | Waveform  | Amplitude | Time period | 
 |-----------|-----------|-------------|
-| Sawtooth  |           |             | 
-| Square    |           |             |
+| Sawtooth  |    12.0v  |   1.061 ms  | 
+| Square    |    14.0v  |   699.6 us  |
 ---
 
+
 ## Model Graph
+SQUARE WAVE
 
-*(Insert graph/diagram here if available)*
+<img width="1063" height="558" alt="image" src="https://github.com/user-attachments/assets/fb921d92-2ed4-4705-9f2a-8736fc3c7d12" />
 
+SAWTOOTH WAVE
 
+<img width="1050" height="624" alt="image" src="https://github.com/user-attachments/assets/23acdd50-2bfd-4f01-9017-61791cca7bf5" />
 
 ## OUTPUT IMAGE OF DAC(SAWTOOTH WAVE FROM DSO AND SQUARE WAVE FROM DSO)
 
+<img width="607" height="760" alt="image" src="https://github.com/user-attachments/assets/b2968e31-5364-48fb-8a74-0347be8c6892" />
 
 
 
